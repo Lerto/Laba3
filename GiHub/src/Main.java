@@ -15,6 +15,10 @@ public class Main {
         FastScanner in = new FastScanner(new InputStreamReader(System.in));
         FastPrinter out = new FastPrinter(new OutputStreamWriter(System.out));
 
+        int a = in.nextInt();
+        int b = in.nextInt();
+
+        out.println(a + b);
 
         out.close();
     }
